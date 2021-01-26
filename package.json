@@ -1,0 +1,34 @@
+{
+  "name": "NixTech",
+  "version": "1.0.0",
+  "description": "Nix Tech Navbar",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeChuCodes/NixTech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeChuCodes/NixTech/issues"
+  },
+  "homepage": "https://github.com/JoeChuCodes/NixTech#readme",
+  "dependencies": {
+    "@babel/core": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-loader": "*",
+    "open-browser-webpack-plugin": "*",
+    "path": "*"
+  }
+}
