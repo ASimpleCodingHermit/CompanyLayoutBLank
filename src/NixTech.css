@@ -1,9 +1,15 @@
+:root {
+  --bgMain: #ff9891;
+  --bgSecondary: #e87782;
+  --altText: #fff;
+}
+
 .container-fluid {
   margin: 0;
   padding: 0;
 }
 .navbar {
-  background-color: #ff9891;
+  background-color: var(--bgMain);
 }
 
 .navbar img {
@@ -11,33 +17,33 @@
 }
 /* Navbar Toggler Button */
 .navbar-light .navbar-toggler {
-  border-color: #fff;
+  border-color: var(--altText);
 }
 .navbar-toggler .navbar-toggler-icon {
-  color: #fff;
+  color: var(--altText);
 }
 /* Responsive Navbar and Dropdown */
 #responsive-navbar-nav a.nav-link {
-  color: #fff;
+  color: var(--altText);
 }
 
 .dropdown-menu {
-  background-color: #ff9891;
+  background-color: var(--bgMain);
 }
 
 .dropdown-menu a.dropdown-item {
-  color: #fff;
+  color: var(--altText);
 }
 
 /* Jumbotron Button */
 .btn-primary {
-  border-color: #ff9891;
-  background-color: #ff9891;
-  color: #fff;
+  border-color: var(--bgMain);
+  background-color: var(--bgMain);
+  color: var(--altText);
 }
 
 .btn-primary:hover {
-  background-color: #e78782;
-  color: white;
-  border-color: #e78782;
+  background-color: var(--bgMain);
+  color: var(--altText);
+  border-color: var(--bgMain);
 }
