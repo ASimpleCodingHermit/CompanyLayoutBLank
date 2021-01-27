@@ -1,5 +1,10 @@
 :root {
-  --bgMain: #ffb6a9;
+  /* Option 2 */
+  /*--bgMain: #f19eaf;
+  --bgSecondary: #cd7464;
+  --altText: #f2f2f2;*/
+  /* Option 1 */
+  --bgMain: #ff927e;
   --bgSecondary: #ff927e;
   --altText: #f2f2f2;
 }
