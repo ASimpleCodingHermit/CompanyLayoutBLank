@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from 'react-bootstrap';
+import BasicJumbo from './Components/BasicJumbo';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        <BasicJumbo />
       </Container>
     </div>
   );
