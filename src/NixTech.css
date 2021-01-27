@@ -1,7 +1,7 @@
 :root {
-  --bgMain: #ff9891;
-  --bgSecondary: #e87782;
-  --altText: #fff;
+  --bgMain: #ffb6a9;
+  --bgSecondary: #ff927e;
+  --altText: #f2f2f2;
 }
 
 .container-fluid {
@@ -34,6 +34,15 @@
 .dropdown-menu a.dropdown-item {
   color: var(--altText);
 }
+.dropdown-item:hover {
+  color: var(--altText);
+  background-color: var(--bgSecondary);
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  color: var(--altText);
+  background-color: var(--bgSecondary);
+}
 
 /* Jumbotron Button */
 .btn-primary {
@@ -43,7 +52,7 @@
 }
 
 .btn-primary:hover {
-  background-color: var(--bgMain);
+  background-color: var(--bgSecondary);
   color: var(--altText);
-  border-color: var(--bgMain);
+  border-color: var(--bgSecondary);
 }
