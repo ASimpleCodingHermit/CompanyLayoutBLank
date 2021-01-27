@@ -1,0 +1,26 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #ff9891;
+}
+/* Navbar Toggler Button */
+.navbar-light .navbar-toggler {
+  border-color: #ff232a;
+}
+.navbar-toggler .navbar-toggler-icon {
+  color: #ff232a;
+}
+/* Responsive Navbar and Dropdown */
+#responsive-navbar-nav a.nav-link {
+  color: #ff232a;
+}
+
+.dropdown-menu {
+  background-color: #e78782;
+}
+
+.dropdown-menu a.dropdown-item {
+  color: #ff232a;
+}
