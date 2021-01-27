@@ -7,14 +7,14 @@
 }
 /* Navbar Toggler Button */
 .navbar-light .navbar-toggler {
-  border-color: #ff232a;
+  border-color: #fff;
 }
 .navbar-toggler .navbar-toggler-icon {
-  color: #ff232a;
+  color: #fff;
 }
 /* Responsive Navbar and Dropdown */
 #responsive-navbar-nav a.nav-link {
-  color: #ff232a;
+  color: #fff;
 }
 
 .dropdown-menu {
@@ -22,5 +22,5 @@
 }
 
 .dropdown-menu a.dropdown-item {
-  color: #ff232a;
+  color: #fff;
 }
