@@ -6,7 +6,7 @@
   background-color: #ff9891;
 }
 
-.navbar img{
+.navbar img {
   box-shadow: 0px 6px 5px 0px #fff;
 }
 /* Navbar Toggler Button */
@@ -22,9 +22,22 @@
 }
 
 .dropdown-menu {
-  background-color: #e78782;
+  background-color: #ff9891;
 }
 
 .dropdown-menu a.dropdown-item {
   color: #fff;
+}
+
+/* Jumbotron Button */
+.btn-primary {
+  border-color: #ff9891;
+  background-color: #ff9891;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #e78782;
+  color: white;
+  border-color: #e78782;
 }
