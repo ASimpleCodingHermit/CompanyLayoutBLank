@@ -5,8 +5,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import BasicJumbo from './Components/BasicJumbo';
 import BasicCard from './Components/BasicCard';
-import NixNav from './Components/Navbar';
+import NixNav from './Components/NixNav';
 import { Row } from 'react-bootstrap';
+import NixFooter from './Components/NixFooter'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <BasicCard />
           <BasicCard />
         </Row>
+        <NixFooter/>
       </Container>
     </div>
   );
