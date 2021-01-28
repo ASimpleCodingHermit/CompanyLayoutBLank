@@ -5,7 +5,7 @@
   --altText: #f2f2f2;*/
   /* Option 1 */
   --bgMain: #ff927e;
-  --bgSecondary: #ff927e;
+  --bgSecondary: #ff8872;
   --altText: #f2f2f2;
 }
 
@@ -16,9 +16,14 @@
 .navbar {
   background-color: var(--bgMain);
 }
-
+/* Navbar Image */
 .navbar img {
   box-shadow: 0px 6px 5px 0px #fff;
+}
+/* General Navbar Properties */
+#accounts {
+  display: flex;
+  justify-content: end;
 }
 /* Navbar Toggler Button */
 .navbar-light .navbar-toggler {
@@ -26,6 +31,11 @@
 }
 .navbar-toggler .navbar-toggler-icon {
   color: var(--altText);
+}
+
+/* Sign In and Out */
+#createUser {
+  align-items: center;
 }
 /* Responsive Navbar and Dropdown */
 #responsive-navbar-nav a.nav-link {

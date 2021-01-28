@@ -8,6 +8,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavDropdown } from 'react-bootstrap';
 import BasicJumbo from './Components/BasicJumbo';
+import { faDoorClosed, faDoorOpen } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (
@@ -25,7 +27,10 @@ function App() {
             NixTech
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-          <Navbar.Collapse id='responsive-navbar-nav'>
+          <Navbar.Collapse
+            id='responsive-navbar-nav'
+            className='justify-content-end'
+          >
             <Nav>
               <Nav.Link href='#features'>Features</Nav.Link>
               <Nav.Link href='#pricing'>Pricing</Nav.Link>
@@ -40,11 +45,11 @@ function App() {
                   Flask Ecommerce Application
                 </NavDropdown.Item>
               </NavDropdown>
-            </Nav>
-            <Nav>
-              <Nav.Link href='#deets'>More deets</Nav.Link>
-              <Nav.Link eventKey={2} href='#memes'>
-                Dank memes
+              <Nav.Link href='#login'>
+                Sign Up <FontAwesomeIcon icon={faDoorClosed} />
+              </Nav.Link>
+              <Nav.Link href='#login'>
+                Log In <FontAwesomeIcon icon={faDoorOpen} />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
