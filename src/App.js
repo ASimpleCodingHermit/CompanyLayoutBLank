@@ -7,7 +7,7 @@ import BasicJumbo from './Components/BasicJumbo';
 import BasicCard from './Components/BasicCard';
 import NixNav from './Components/NixNav';
 import { Row } from 'react-bootstrap';
-import NixFooter from './Components/NixFooter'
+import NixFooter from './Components/NixFooter';
 
 function App() {
   return (
@@ -15,13 +15,13 @@ function App() {
       <Container fluid>
         <NixNav />
         <BasicJumbo />
-        <Row id="cardRow">
+        <Row id='cardRow'>
           <BasicCard />
           <BasicCard />
           <BasicCard />
           <BasicCard />
         </Row>
-        <NixFooter/>
+        <NixFooter />
       </Container>
     </div>
   );

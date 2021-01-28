@@ -23,7 +23,7 @@
 /* General Navbar Properties */
 #accounts {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 /* Navbar Toggler Button */
 .navbar-light .navbar-toggler {

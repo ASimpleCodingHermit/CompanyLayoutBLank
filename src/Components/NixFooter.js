@@ -1,12 +1,14 @@
 import React from 'react';
-import { Container, Navbar, NavbarBrand } from 'react-bootstrap';
+import { Container,Navbar, NavbarBrand, Row } from 'react-bootstrap';
 function NixFooter() {
   return (
-    <Navbar className='fixed-bottom'>
-      <Container>
-        <NavbarBrand>Footer</NavbarBrand>
-      </Container>
-    </Navbar>
+    <Container fluid>
+      <Row>
+        <Navbar>
+          <NavbarBrand>Footer</NavbarBrand>
+        </Navbar>
+      </Row>
+    </Container>
   );
 }
 export default NixFooter;
